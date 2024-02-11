@@ -59,9 +59,9 @@ export function SecondSection(){
 
       </div>
 
-      <div>
+      <div className={style.getButtons}>
         <OutlineButton text={"Get Custom Pricing"} borderColor={"#0065FE"}/>
-        <FilledButton text={"Select Pricing"}/>
+        <FilledButton text={"Select Pricing"} padding={"14px 45px"}/>
       </div>
 
     </div>

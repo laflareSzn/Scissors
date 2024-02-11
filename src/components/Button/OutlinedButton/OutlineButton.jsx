@@ -13,6 +13,7 @@ export function OutlineButton(props){
       padding: "12px 24px",
       borderRadius: "20px",
       color: props.borderColor,
+      fontWeight: "600",
       
       }}>
       

@@ -5,13 +5,14 @@
   align-items: center;
   justify-content: center;
   gap: 100px;
+  margin-bottom: 100px;
 
 }
 
 .firstSecondSection{
   display: flex;
   flex-direction: column;
-  margin-top: 60px;
+  margin-top: 70px;
   align-items: center;
 
   >h4{
@@ -38,9 +39,10 @@
 .secondSecondSection{
   display: flex;
   gap: 0;
+  align-items: center;
 }
 
-.card{
+.card {
   display: flex;
   flex-direction: column;
   border-radius: 12px;
@@ -48,34 +50,35 @@
   border-color: #0065FE;
   padding: 44px 70px;
   justify-content: center;
+  width: 210px;
+  height: 450px;
+  transition: width 0.3s, height 0.3s; 
 
-  >p{
+  > p {
     font-size: 24px;
     line-height: 32px;
     font-family: 'HelveticaforTarget', sans-serif;
   }
 
-  >span > h4{
-
+  > span > h4 {
     font-size: 40px;
     line-height: 48px;
     margin: 0;
     font-family: 'HelveticaforTarget-bold', sans-serif;
-
   }
 
-  >span > p{
+  > span > p {
     font-size: 20px;
     line-height: 32px;
     font-family: 'HelveticaforTarget', sans-serif;
   }
 
-  &:hover{
+  &:hover {
     background-color: #1E3448;
     color: white;
-    
+    width: 250px;
+    height: 570px; 
   }
-
 }
 
 .subCard{
@@ -87,4 +90,10 @@
     font-family: 'HelveticaforTarget', sans-serif;
     gap: 10px;
   }
+}
+
+.getButtons{
+  display: flex;
+  gap: 12px;
+
 }

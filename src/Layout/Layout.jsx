@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import { Hero } from "../components/Hero";
 import Navbar from "../components/Navbar";
 import { SecondSection } from "../components/SecondSection";
+import { ThirdSection } from "../components/ThirdSection";
 
 
 export function Layout(){
@@ -13,6 +14,7 @@ export function Layout(){
       <Hero/>
       <FirstSection/>
       <SecondSection/>
+      <ThirdSection/>
       <Footer/>
 
     </div>
