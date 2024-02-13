@@ -5,7 +5,7 @@ import Icon2 from '../../assets/images/Group2.png'
 import Icon3 from '../../assets/images/Group3.png'
 import Icon4 from '../../assets/images/Group4.png'
 
-function FirstSection(){
+function Features(){
 
   return(
     <div className={style.FirstSectionMain}>
@@ -100,4 +100,4 @@ function FirstSection(){
 
 }
 
-export default FirstSection
+export default Features

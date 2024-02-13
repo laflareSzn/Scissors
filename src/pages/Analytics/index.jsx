@@ -1,8 +1,7 @@
-import { FilledButton } from '../Button/FilledButton'
+import { FilledButton } from '../../components/Button/FilledButton'
 import style from './index.module.css'
-import { RxMagicWand } from "react-icons/rx";
 
-export function ThirdSection(){
+export function Analytics(){
   return (
     <div className={style.mainThirdSection}>
       <div className={style.thirdSection}>
@@ -38,6 +37,14 @@ export function ThirdSection(){
           </div>
         </form>
           
+      </div>
+
+      <div>
+      
+        <div>
+          <p></p>
+          <FilledButton text={"Get"} padding={"12px 30px"} />
+        </div>
       </div>
 
     </div>

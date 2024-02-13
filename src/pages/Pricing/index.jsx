@@ -1,11 +1,11 @@
 import { Card } from "./Card";
-import {OutlineButton} from "../Button/OutlinedButton/OutlineButton"
-import {FilledButton} from "../Button/FilledButton"
+import {OutlineButton} from "../../components/Button/OutlinedButton/OutlineButton"
+import {FilledButton} from "../../components/Button/FilledButton"
 import style from './index.module.css'
 
 
 
-export function SecondSection(){
+export function Pricing(){
 
   return(
 

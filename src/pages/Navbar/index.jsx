@@ -1,6 +1,6 @@
 
-import { FilledButton } from "../Button/FilledButton";
-import { GhostButton } from "../Button/GhostButton";
+import { FilledButton } from "../../components/Button/FilledButton";
+import { GhostButton } from "../../components/Button/GhostButton";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import style from './index.module.css';
 
